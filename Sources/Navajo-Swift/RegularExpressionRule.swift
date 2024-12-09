@@ -48,6 +48,6 @@ open class RegularExpressionRule: PasswordRule {
     /// Error description.
     /// Localization Key - "NAVAJO_REGEX_ERROR"
     open var localizedErrorDescription: String {
-        return NSLocalizedString("NAVAJO_REGEX_ERROR", tableName: nil, bundle: Bundle.main, value: "Must not match regular expression", comment: "Navajo - Regex rule")
+        return NSLocalizedString("NAVAJO_REGEX_ERROR", tableName: nil, bundle: Bundle.module, value: "Must not match regular expression", comment: "Navajo - Regex rule")
     }
 }

@@ -47,6 +47,6 @@ open class AllowedCharacterRule: PasswordRule {
     /// Error description.
     /// Localization Key - "NAVAJO_ALLOWED_CHARACTER_ERROR"
     open var localizedErrorDescription: String {
-        return NSLocalizedString("NAVAJO_ALLOWED_CHARACTER_ERROR", tableName: nil, bundle: Bundle.main, value: "Must not include disallowed character", comment: "Navajo - Allowed character rule")
+        return NSLocalizedString("NAVAJO_ALLOWED_CHARACTER_ERROR", tableName: nil, bundle: Bundle.module, value: "Must not include disallowed character", comment: "Navajo - Allowed character rule")
     }
 }

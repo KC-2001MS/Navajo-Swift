@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Navajo-Swift",
+    defaultLocalization: LanguageTag(rawValue: "en"),
     platforms: [
         .iOS(.v8),
         .macOS(.v10_10),

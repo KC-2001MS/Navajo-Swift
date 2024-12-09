@@ -1,0 +1,390 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "NAVAJO_ALLOWED_CHARACTER_ERROR" : {
+      "comment" : "Navajo - Allowed character rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must not include disallowed character"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "許可されていない文字を含まないこと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "허용된 문자만 사용해야 합니다"
+          }
+        }
+      }
+    },
+    "NAVAJO_BLOCK_ERROR" : {
+      "comment" : "Navajo - Block rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must not satisfy precondition"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "条件を満たしていません"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Block에서 true가 반환되면 안됩니다"
+          }
+        }
+      }
+    },
+    "NAVAJO_DICTIONARYWORD_ERROR" : {
+      "comment" : "Navajo - Dictionary word rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must not be dictionary word"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "辞書に載っている単語を使わないこと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사전에 포함된 문자를 사용하면 안됩니다"
+          }
+        }
+      }
+    },
+    "NAVAJO_LENGTH_ERROR" : {
+      "comment" : "Navajo - Length rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must be within range "
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字数の範囲を超えないこと "
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "길이가 다음 범위안에 있어야 합니다 "
+          }
+        }
+      }
+    },
+    "NAVAJO_PREDICATE_ERROR" : {
+      "comment" : "Navajo - Predicate rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must not match predicate"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "述語と一致しないこと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Predicate에 매칭되면 안됩니다"
+          }
+        }
+      }
+    },
+    "NAVAJO_REASONABLE" : {
+      "comment" : "Navajo - Reasonable",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Reasonable"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "適度"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "적당함"
+          }
+        }
+      }
+    },
+    "NAVAJO_REGEX_ERROR" : {
+      "comment" : "Navajo - Regex rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must not match regular expression"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正規表現にマッチしないこと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Regex에 매칭되면 안됩니다"
+          }
+        }
+      }
+    },
+    "NAVAJO_REQUIRED_CHARACTER_DECIMAL_DIGIT_ERROR" : {
+      "comment" : "Navajo - Required decimal digit character rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must include decimal digit characters"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アラビア数字を含むこと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "숫자를 포함해야 합니다"
+          }
+        }
+      }
+    },
+    "NAVAJO_REQUIRED_CHARACTER_LOWERCASE_ERROR" : {
+      "comment" : "Navajo - Required lowercase character rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must include lowercase characters"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英字の小文字を含むこと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "소문자를 포함해야 합니다"
+          }
+        }
+      }
+    },
+    "NAVAJO_REQUIRED_CHARACTER_REQUIRED_ERROR" : {
+      "comment" : "Navajo - Required character rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must include required characters"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "必須文字を含むこと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "요구되는 문자를 포함해야 합니다"
+          }
+        }
+      }
+    },
+    "NAVAJO_REQUIRED_CHARACTER_SYMBOL_ERROR" : {
+      "comment" : "Navajo - Required symbol character rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must include symbol characters"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "記号文字を含むこと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "심볼을 포함해야 합니다"
+          }
+        }
+      }
+    },
+    "NAVAJO_REQUIRED_CHARACTER_UPPERCASE_ERROR" : {
+      "comment" : "Navajo - Required uppercase character rule",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Must include uppercase characters"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英字の大文字を含むこと"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "대문자를 포함해야 합니다"
+          }
+        }
+      }
+    },
+    "NAVAJO_STRONG" : {
+      "comment" : "Navajo - Strong",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Strong"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "強い"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "강함"
+          }
+        }
+      }
+    },
+    "NAVAJO_VERY_STRONG" : {
+      "comment" : "Navajo - Very Strong",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Very Strong"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "とても強い"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매우 강함"
+          }
+        }
+      }
+    },
+    "NAVAJO_VERY_WEAK" : {
+      "comment" : "Navajo - Very weak",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Very Weak"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "とても弱い"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "매우 약함"
+          }
+        }
+      }
+    },
+    "NAVAJO_WEAK" : {
+      "comment" : "Navajo - Weak",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Weak"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "弱い"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "약함"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

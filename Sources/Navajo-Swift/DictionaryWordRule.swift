@@ -46,6 +46,6 @@ open class DictionaryWordRule: PasswordRule {
     /// Error description.
     /// Localization Key - "NAVAJO_DICTIONARYWORD_ERROR"
     open var localizedErrorDescription: String {
-        return NSLocalizedString("NAVAJO_DICTIONARYWORD_ERROR", tableName: nil, bundle: Bundle.main, value: "Must not be dictionary word", comment: "Navajo - Dictionary word rule")
+        return NSLocalizedString("NAVAJO_DICTIONARYWORD_ERROR", tableName: nil, bundle: Bundle.module, value: "Must not be dictionary word", comment: "Navajo - Dictionary word rule")
     }
 }

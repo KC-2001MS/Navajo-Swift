@@ -114,18 +114,18 @@ open class RequiredCharacterRule: PasswordRule {
     /// - Default error "NAVAJO_REQUIRED_CHARACTER_REQUIRED_ERROR"
     open var localizedErrorDescription: String {
         guard let preset = preset else {
-            return NSLocalizedString("NAVAJO_REQUIRED_CHARACTER_REQUIRED_ERROR", tableName: nil, bundle: Bundle.main, value: "Must include required characters", comment: "Navajo - Required character rule")
+            return NSLocalizedString("NAVAJO_REQUIRED_CHARACTER_REQUIRED_ERROR", tableName: nil, bundle: Bundle.module, value: "Must include required characters", comment: "Navajo - Required character rule")
         }
 
         switch preset {
         case .lowercaseCharacter:
-            return NSLocalizedString("NAVAJO_REQUIRED_CHARACTER_LOWERCASE_ERROR", tableName: nil, bundle: Bundle.main, value: "Must include lowercase characters", comment: "Navajo - Required lowercase character rule")
+            return NSLocalizedString("NAVAJO_REQUIRED_CHARACTER_LOWERCASE_ERROR", tableName: nil, bundle: Bundle.module, value: "Must include lowercase characters", comment: "Navajo - Required lowercase character rule")
         case .uppercaseCharacter:
-            return NSLocalizedString("NAVAJO_REQUIRED_CHARACTER_UPPERCASE_ERROR", tableName: nil, bundle: Bundle.main, value: "Must include uppercase characters", comment: "Navajo - Required uppercase character rule")
+            return NSLocalizedString("NAVAJO_REQUIRED_CHARACTER_UPPERCASE_ERROR", tableName: nil, bundle: Bundle.module, value: "Must include uppercase characters", comment: "Navajo - Required uppercase character rule")
         case .decimalDigitCharacter:
-            return NSLocalizedString("NAVAJO_REQUIRED_CHARACTER_DECIMAL_DIGIT_ERROR", tableName: nil, bundle: Bundle.main, value: "Must include decimal digit characters", comment: "Navajo - Required decimal digit character rule")
+            return NSLocalizedString("NAVAJO_REQUIRED_CHARACTER_DECIMAL_DIGIT_ERROR", tableName: nil, bundle: Bundle.module, value: "Must include decimal digit characters", comment: "Navajo - Required decimal digit character rule")
         case .symbolCharacter:
-            return NSLocalizedString("NAVAJO_REQUIRED_CHARACTER_SYMBOL_ERROR", tableName: nil, bundle: Bundle.main, value: "Must include symbol characters", comment: "Navajo - Required symbol character rule")
+            return NSLocalizedString("NAVAJO_REQUIRED_CHARACTER_SYMBOL_ERROR", tableName: nil, bundle: Bundle.module, value: "Must include symbol characters", comment: "Navajo - Required symbol character rule")
         }
     }
 }

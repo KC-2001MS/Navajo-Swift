@@ -48,6 +48,6 @@ open class BlockRule: PasswordRule {
     /// Error description.
     /// Localization Key - "NAVAJO_BLOCK_ERROR"
     open var localizedErrorDescription: String {
-        return NSLocalizedString("NAVAJO_BLOCK_ERROR", tableName: nil, bundle: Bundle.main, value: "Must not satisfy precondition", comment: "Navajo - Block rule")
+        return NSLocalizedString("NAVAJO_BLOCK_ERROR", tableName: nil, bundle: Bundle.module, value: "Must not satisfy precondition", comment: "Navajo - Block rule")
     }
 }

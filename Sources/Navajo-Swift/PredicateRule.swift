@@ -48,6 +48,6 @@ open class PredicateRule: PasswordRule {
     /// Error description.
     /// Localization Key - "NAVAJO_PREDICATE_ERROR"
     open var localizedErrorDescription: String {
-        return NSLocalizedString("NAVAJO_PREDICATE_ERROR", tableName: nil, bundle: Bundle.main, value: "Must not match predicate", comment: "Navajo - Predicate rule")
+        return NSLocalizedString("NAVAJO_PREDICATE_ERROR", tableName: nil, bundle: Bundle.module, value: "Must not match predicate", comment: "Navajo - Predicate rule")
     }
 }

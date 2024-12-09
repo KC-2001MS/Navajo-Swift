@@ -60,15 +60,15 @@ open class Navajo {
     public static func localizedString(forStrength strength: PasswordStrength) -> String {
         switch strength {
         case .veryWeak:
-            return NSLocalizedString("NAVAJO_VERY_WEAK", tableName: nil, bundle: Bundle.main, value: "Very Weak", comment: "Navajo - Very weak")
+            return NSLocalizedString("NAVAJO_VERY_WEAK", tableName: nil, bundle: Bundle.module, value: "Very Weak", comment: "Navajo - Very weak")
         case .weak:
-            return NSLocalizedString("NAVAJO_WEAK", tableName: nil, bundle: Bundle.main, value: "Weak", comment: "Navajo - Weak")
+            return NSLocalizedString("NAVAJO_WEAK", tableName: nil, bundle: Bundle.module, value: "Weak", comment: "Navajo - Weak")
         case .reasonable:
-            return NSLocalizedString("NAVAJO_REASONABLE", tableName: nil, bundle: Bundle.main, value: "Reasonable", comment: "Navajo - Reasonable")
+            return NSLocalizedString("NAVAJO_REASONABLE", tableName: nil, bundle: Bundle.module, value: "Reasonable", comment: "Navajo - Reasonable")
         case .strong:
-            return NSLocalizedString("NAVAJO_STRONG", tableName: nil, bundle: Bundle.main, value: "Strong", comment: "Navajo - Strong")
+            return NSLocalizedString("NAVAJO_STRONG", tableName: nil, bundle: Bundle.module, value: "Strong", comment: "Navajo - Strong")
         case .veryStrong:
-            return NSLocalizedString("NAVAJO_VERY_STRONG", tableName: nil, bundle: Bundle.main, value: "Very Strong", comment: "Navajo - Very Strong")
+            return NSLocalizedString("NAVAJO_VERY_STRONG", tableName: nil, bundle: Bundle.module, value: "Very Strong", comment: "Navajo - Very Strong")
         }
     }
 

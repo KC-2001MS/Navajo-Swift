@@ -27,6 +27,7 @@
 #else
     import UIKit
 #endif
+@testable import Navajo_Swift
 import XCTest
 
 class RuleTests: XCTestCase {

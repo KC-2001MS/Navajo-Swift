@@ -54,6 +54,6 @@ open class LengthRule: PasswordRule {
             rangeDescription = String(range.lowerBound) + " - " + String(range.upperBound - 1)
         }
 
-        return NSLocalizedString("NAVAJO_LENGTH_ERROR", tableName: nil, bundle: Bundle.main, value: "Must be within range ", comment: "Navajo - Length rule") + rangeDescription
+        return NSLocalizedString("NAVAJO_LENGTH_ERROR", tableName: nil, bundle: Bundle.module, value: "Must be within range ", comment: "Navajo - Length rule") + rangeDescription
     }
 }
